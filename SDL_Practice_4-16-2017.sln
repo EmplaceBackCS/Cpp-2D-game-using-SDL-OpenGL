@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL_Practice_4-16-2017", "SDL_Practice_4-16-2017\SDL_Practice_4-16-2017.vcxproj", "{E14AFF14-B033-42EC-8287-588B3C9BAC35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77} = {7248683C-66B3-4E01-87F9-8BB91A5CFF77}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSGengine", "CSGengine\CSGengine.vcxproj", "{7248683C-66B3-4E01-87F9-8BB91A5CFF77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SlimeGame", "SlimeGame\SlimeGame.vcxproj", "{580AFB81-D964-46F1-B884-6748307E7582}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77} = {7248683C-66B3-4E01-87F9-8BB91A5CFF77}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Debug|x64.ActiveCfg = Debug|x64
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Debug|x64.Build.0 = Debug|x64
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Debug|x86.ActiveCfg = Debug|Win32
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Debug|x86.Build.0 = Debug|Win32
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Release|x64.ActiveCfg = Release|x64
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Release|x64.Build.0 = Release|x64
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Release|x86.ActiveCfg = Release|Win32
+		{E14AFF14-B033-42EC-8287-588B3C9BAC35}.Release|x86.Build.0 = Release|Win32
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Debug|x64.ActiveCfg = Debug|x64
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Debug|x64.Build.0 = Debug|x64
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Debug|x86.ActiveCfg = Debug|Win32
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Debug|x86.Build.0 = Debug|Win32
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Release|x64.ActiveCfg = Release|x64
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Release|x64.Build.0 = Release|x64
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Release|x86.ActiveCfg = Release|Win32
+		{7248683C-66B3-4E01-87F9-8BB91A5CFF77}.Release|x86.Build.0 = Release|Win32
+		{580AFB81-D964-46F1-B884-6748307E7582}.Debug|x64.ActiveCfg = Debug|x64
+		{580AFB81-D964-46F1-B884-6748307E7582}.Debug|x64.Build.0 = Debug|x64
+		{580AFB81-D964-46F1-B884-6748307E7582}.Debug|x86.ActiveCfg = Debug|Win32
+		{580AFB81-D964-46F1-B884-6748307E7582}.Debug|x86.Build.0 = Debug|Win32
+		{580AFB81-D964-46F1-B884-6748307E7582}.Release|x64.ActiveCfg = Release|x64
+		{580AFB81-D964-46F1-B884-6748307E7582}.Release|x64.Build.0 = Release|x64
+		{580AFB81-D964-46F1-B884-6748307E7582}.Release|x86.ActiveCfg = Release|Win32
+		{580AFB81-D964-46F1-B884-6748307E7582}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+1 - Add a way to go on to the next level
+
+	Currently, it just respawns zombies when all the zombies are gone
+
+-------------------------------------------------------------------------------------------------------
+2 - Improve the bool Bullets::checkBulletCollisionWithWorld(const std::vector<std::string>& levelData)
+function in the Bullets.cpp file
+
+	Right now it has collision, but it's a bit weird. Needs a bit of help
